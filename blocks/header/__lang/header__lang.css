@@ -1,11 +1,13 @@
-.header__lang[type="radio"] {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
+.header__lang {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: normal;
+ }
 
-.header__lang[type="radio"]:checked + .header__lang-visible {
-  border-bottom: 2px solid #fff;
+ @media screen and (max-width: 424px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
