@@ -1,0 +1,11 @@
+.place__image {
+  width: 100%;
+  align-self: start;
+}
+
+@media screen and (max-width: 750px) {
+  .place__image {
+    width: 100vw;
+    justify-self: center;
+  }
+}
