@@ -1,0 +1,38 @@
+.cover {
+  width: 100%;
+  min-height: 63vw;
+  background: url(../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.cover:hover {
+  background-image: linear-gradient(rgba(42, 44, 47, 0.6),rgba(42, 44, 47, 0.6)),
+                    url(../../images/cover__background.jpg);
+;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    min-height: 58vw;
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
