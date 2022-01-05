@@ -4,8 +4,9 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
+@media screen and (max-width: 424px) {
   .logo_place_header {
-   transform: scale(.81);
+    width: 142px;
+    height: 42px;
   }
 }
