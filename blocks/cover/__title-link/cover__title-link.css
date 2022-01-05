@@ -1,3 +1,8 @@
 .cover__title-link {
   text-decoration: none;
 }
+
+.cover__title-link:hover {
+  opacity: .8;
+  transition: opacity .4s ease;
+}
