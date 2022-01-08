@@ -5,6 +5,7 @@
   margin-bottom: 80px;
   align-items: end;
   justify-content: center;
+  overflow: hidden;
 }
 
 .place__item:last-of-type {
