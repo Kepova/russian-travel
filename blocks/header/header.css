@@ -1,6 +1,5 @@
 .header {
-  max-width: 1280px;
-  max-height: 52px;
+  max-width: 928px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -8,14 +7,22 @@
   padding: 28px 48px 48px;
 }
 
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .header {
-    padding: 28px 24px 48px;
+    max-width: 720px;
+    padding: 16px 24px 48px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .header {
+    max-width: 288px;
     padding: 16px 16px 48px;
   }
 }

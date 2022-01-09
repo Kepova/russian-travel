@@ -6,8 +6,15 @@
   color: #fff;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 940px) {
+  .place__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .place__title {
     font-size: 32px;
+    padding: 0 16px;
   }
 }

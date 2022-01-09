@@ -1,6 +1,6 @@
 .lead__image {
   width: 100%;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin: 0 auto 8px;
   display: block;
 }

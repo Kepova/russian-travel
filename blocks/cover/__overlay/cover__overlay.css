@@ -7,9 +7,9 @@
   top: 0;
   left: 0;
   z-index: 1;
+  transition: opacity .5s ease;
 }
 
 .cover__overlay:hover {
   opacity: .8;
-  transition: opacity .4s ease;
 }
