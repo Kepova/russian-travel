@@ -1,41 +1,15 @@
 .cover {
-  width: 100%;
-  min-height: 640px;
-  background: url(../../images/cover__background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   margin-bottom: 92px;
-  position: relative;
-  display: flex;
-  align-items: center;
   }
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    max-width: 1184px;
-    min-height: 740px;
-    margin: 0 auto 92px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-height: 480px;
     margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .cover {
-    min-height: 300px;
-  }
-}
-
-
 @media screen and (max-width: 320px) {
   .cover {
-    min-height: 200px;
     margin-bottom: 64px;
   }
 }

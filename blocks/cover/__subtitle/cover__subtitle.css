@@ -6,8 +6,6 @@
   line-height: 1.2;
   font-weight: 400;
   color: #fff;
-  position: relative;
-  z-index: 2;
 }
 
 @media screen and (max-width: 550px) {
